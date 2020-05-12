@@ -53,3 +53,60 @@ def basic_xgboost(spectra_df, WET_CHEM_PATH, Y_COLUMN):
 
     cv_result = cross_validate(model, x, y, scoring='r2', cv=kfold)['test_score']
     print(f'CV r^2 score: {np.mean(cv_result)}')
+    
+    return model
+
+def basic_xgboost2(X, y):
+    
+    '''
+    X the spectra data frame
+    y, the specified target column
+    '''
+    
+#     wet_chem_df = pd.read_csv(WET_CHEM_PATH, index_col='SSN')
+#     data_df = spectra_df.merge(wet_chem_df, left_index=True, right_index=True)
+
+    print(f'Training model for {y.name}.')
+    print(f'{y.shape[0]} samples available.')
+
+
+    #y = data_df[Y_COLUMN]
+    y_mask = y.notnull()
+    y = y[y_mask]
+    y = np.log1p(y)
+
+    #column_names = X.columns
+    
+    #x = data_df[column_names]
+    X = X[y_mask]
+    X = np.apply_along_axis(np.gradient, 1, X)
+
+    kfold = KFold(shuffle=True, random_state=0, n_splits=4)
+    model = XGBRegressor(n_estimators=500, min_child_weight=20, n_jobs=-1, objective='reg:squarederror')
+
+    cv_result = cross_validate(model, X, y, scoring='r2', cv=kfold)['test_score']
+    print(f'CV r^2 score: {np.mean(cv_result)}')
+    
+    return model
+
+def basic_xgboost3(X, y):
+    
+    '''
+    X the spectra data frame
+    y, the specified target column
+    '''
+    
+#     wet_chem_df = pd.read_csv(WET_CHEM_PATH, index_col='SSN')
+#     data_df = spectra_df.merge(wet_chem_df, left_index=True, right_index=True)
+
+    print(f'Training model for {y.name}.')
+    print(f'{y.shape[0]} samples available.')
+
+
+    kfold = KFold(shuffle=True, random_state=0, n_splits=4)
+    model = XGBRegressor(n_estimators=500, min_child_weight=20, n_jobs=-1, objective='reg:squarederror')
+
+    cv_result = cross_validate(model, X, y, scoring='r2', cv=kfold)['test_score']
+    print(f'CV r^2 score: {np.mean(cv_result)}')
+    
+    return model
