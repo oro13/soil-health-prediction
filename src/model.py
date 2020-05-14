@@ -112,4 +112,4 @@ def basic_xgboost3(X, y):
     cv_result = cross_validate(model, X, y, scoring='r2', cv=kfold)['test_score']
     print(f'CV r^2 score: {np.mean(cv_result)}')
     
-    return model
+    return model, np.mean(cv_result)
