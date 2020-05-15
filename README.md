@@ -6,11 +6,9 @@
 
 ## Motivation:
 
-Soil health is our health. Here we hope to improve our tools of assessing soil health and making them more available. Best ecological practices of agriculture can be measured and their efficacy can be proven. Here we are building the ability to use a cheap and quick method of soil health assessment such as a infrared scanning. Infrared scanning could be made widespread in smartphones. 
+Soil health is our health. Here we hope to improve our tools of assessing soil health and making them more available.
 
-Infrared spectroscopy has traditionally provided great scientific insight. Here we can see how it can improve the quality of life of farmers and the whole ecosystem.
-
-My hope is this project begins what could become a predictive model robust enough to inform cruder handheld infrared scannings, by considering global and local datasets particular to that location. Such a device/application could democratize soil health and demystify the process of knowing your soil's nutrient profile. Another horizon of interest would be considering ways to easily assess soil microbiology.
+Infrared spectroscopy has traditionally provided great scientific insight. Now it can improve the quality of life of farmers and their ecosystems.
 
 ## Data Source
 
@@ -53,7 +51,9 @@ The infrared scanner can be configured in a variety of ways, target different sp
 
 <img alt='configuring the HTS-XT' src='img/ir_device_workflow.png' width='50%' height='50%'>
 
-The data includes scannings from a variety of infrared methods (LIST). Different tools are suitable for different ranges in the infrared spectrum. Considering which tool to use to measure the soil impacts which particles they are able to perceive. For soil nutrient molecules near the soil surface, all the infrared tools performed decently. For aspects of the soil harder to depict physically, such as soil eletrical capacitance due to insoluable salt buildup (CONFIRM), certain tools perform better than others.
+The data includes scannings from a variety of infrared methods. Different tools are better at perceiving specific ranges in the infrared spectrum. Running a predictive model on the various tools helped decipher which particles it was better at perceiving.
+
+For soil nutrient molecules near the soil surface, all the infrared tools performed decently. For aspects of the soil harder to depict physically, such as soil eletrical capacitance due to insoluable salt buildup (CONFIRM), certain tools perform better than others.
 
 A research paper considers this more closely:
 
@@ -104,3 +104,11 @@ A research paper considers this more closely:
 ## Next Steps:
 
 Considering geodata in the model. Attempting transfer learning on neural networks using data from other continents.
+
+Best ecological practices of agriculture can be measured and their efficacy can be proven. We can use a cheap and quick method of soil health assessment such as a infrared scanning, made widespread in smartphones.
+
+My hope is this project begins what could become a predictive model robust enough to inform cruder handheld infrared scannings. Such a model would consider global and local datasets, and determine weights based on that location. 
+
+Such a device/application could democratize soil health and demystify the process of knowing your soil's nutrient profile.
+
+Another horizon of interest would be considering ways to easily assess soil microbiology.
