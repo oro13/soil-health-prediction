@@ -1,9 +1,3 @@
-<style>
-td {
-  font-size: 70px
-}
-</style>
-
 # Predicting Soil Nutrition with Infrared Spectroscopy
 
 <img alt='working with the soil' src='img/Micro_catchment.jpg' width='90%' height='900%'>
