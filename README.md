@@ -1,3 +1,9 @@
+<style>
+td {
+  font-size: 70px
+}
+</style>
+
 # Predicting Soil Nutrition with Infrared Spectroscopy
 
 <img alt='working with the soil' src='img/Micro_catchment.jpg' width='50%' height='100%'>
@@ -61,7 +67,23 @@ A research paper considers this more closely:
 
 ## The Data
 
+### Infrared Data
+
+<img alt='infrared data' src='img/x_before_derivative.png' width='90%' height='50%'>
+
 <img alt='infrared spectra' src='img/wave_visual.png' width='90%' height='50%'>
+
+Take Derivative of Values
+
+<img alt='infrared spectra' src='img/x_after_derivative.png' width='90%' height='50%'>
+
+### Target Values
+
+<img alt='target data' src='img/targets_before_log.png' width='90%' height='50%'>
+
+Take the log to help the computer track tiny values
+
+<img alt='target data' src='img/targets_after_log.png' width='90%' height='50%'>
 
 
 ## XGBoost Model Trained on Bruker HTS-XT Data
