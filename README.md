@@ -66,6 +66,10 @@ A research paper considers this more closely:
 
 ## XGBoost Model Trained on Bruker HTS-XT Data
 
+### Initialize the Model
+
+<img alt='xgboost start' src='img/basicmodel.png' width='90%' height='40%'>
+
 ### Training the Model
 
 <img alt='xgboost code' src='img/final_model.png' width='90%' height='40%'>
