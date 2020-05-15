@@ -1,6 +1,6 @@
 # Predicting Soil Nutrition with Infrared Spectroscopy
 
-<img alt='working with the soil' src='img/Micro_catchment.jpg' width='50%' height='100%'>
+<img alt='working with the soil' src='img/Micro_catchment.jpg' width='90%' height='900%'>
 
 [photo by Malherbe Rossouw, South Africa ](https://commons.wikimedia.org/w/index.php?curid=63653257)
 
