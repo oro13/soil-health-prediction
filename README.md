@@ -30,9 +30,9 @@ Infering nutrients through Infrared Spectroscopy. Thousands of soil samples have
 
 ## How the Data Was Collected
 
-3 Research Centers Across Africa: CROPNUTS, ICRAF, and RRES. I worked primarily with CROPNUTS due to them having large data set available.
+3 Research Centers Across Africa: CROPNUTS, ICRAF, and RRES. I worked primarily with CROPNUTS due to them having a large data set available.
 
-Each research center performed dry teting (infrared and xray scanning) and wet testing (chemical extraction and solutions) on soil sampled from the same sights across the continent.
+Each research center performed dry testing (infrared and xray scanning) and wet testing (chemical extraction and solutions) on soil sampled from the same sights across the continent.
 
 
 <img alt='data locations' src='img/map.jpg' width='90%' height='50%'>
