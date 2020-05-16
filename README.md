@@ -47,7 +47,7 @@ One infrared scanning tool, the Bruker HTS-XT
 
 [more information on Bruker HTS-XT](https://www.bruker.com/products/infrared-near-infrared-and-raman-spectroscopy/ft-ir-routine-spectrometers/hts-xt.html)
 
-The infrared scanner can be configured in a variety of ways, target different spectra ranges:
+The infrared scanner can be configured in a variety of ways, in order to target different spectra ranges:
 
 <img alt='configuring the HTS-XT' src='img/ir_device_workflow.png' width='50%' height='50%'>
 
