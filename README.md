@@ -80,7 +80,7 @@ These are the values that we're trying to predict. The available values vary fro
 
 <img alt='target data' src='img/targets_before_log.png' width='90%' height='50%'>
 
-The same data transformed by taking the log (helps the computer keep track of tiny numbers)
+The same data transformed by taking the natural log (this step helps the computer keep track of tiny, infinitesimal numbers)
 
 <img alt='target data' src='img/targets_after_log.png' width='90%' height='50%'>
 
