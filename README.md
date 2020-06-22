@@ -69,7 +69,7 @@ A [NIH research paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4834557/#bb0
 
 <img alt='infrared spectra' src='img/wave_visual.png' width='90%' height='50%'>
 
-Take Derivative of Values
+The same data transformed by taking the derivative of the numbers (helps the signal appear through the noise, though the usefulessness is [debatable](https://youtu.be/BXXfOr4dmJA?t=1839) and should be crossvalidated with different transformations on different soil samples)
 
 <img alt='infrared spectra' src='img/x_after_derivative.png' width='90%' height='50%'>
 
@@ -77,7 +77,7 @@ Take Derivative of Values
 
 <img alt='target data' src='img/targets_before_log.png' width='90%' height='50%'>
 
-Take the log to help the computer track tiny values
+The same data transformed by taking the log (helps the computer keep track of tiny numbers)
 
 <img alt='target data' src='img/targets_after_log.png' width='90%' height='50%'>
 
