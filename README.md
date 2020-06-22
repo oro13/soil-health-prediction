@@ -32,7 +32,7 @@ Thousands of soil samples have been both scanned with (dry testing) and tested i
 
 ## How the Data Was Collected
 
-3 Research Centers Across Africa: CROPNUTS, ICRAF, and RRES. I worked primarily with CROPNUTS due to them having a large data set available.
+3 Research Centers Across Africa: CROPNUTS, ICRAF, and RRES. We worked primarily with CROPNUTS due to them having a large data set available.
 
 Each research center performed dry testing (infrared and xray scanning) and wet testing (chemical extraction and solutions) on soil sampled from the same sights across the continent.
 
@@ -42,8 +42,9 @@ Each research center performed dry testing (infrared and xray scanning) and wet 
 
 ## How the Data was Measured:
 
+The best predictions came from this infrared scanning tool. It measured a broader range of spectra.
 
-One infrared scanning tool, the Bruker HTS-XT
+The Bruker HTS-XT
 
 <img alt='qedlogo' src='img/HTS-XT_Bruker.png' width='70%' height='50%'>
 
@@ -126,6 +127,8 @@ The same data transformed by taking the log (helps the computer keep track of ti
 Considering geodata in the model. Attempting transfer learning on neural networks using data from other continents.
 
 Best ecological practices of agriculture can be measured and their efficacy can be proven. We can use a cheap and quick method of soil health assessment such as a infrared scanning, made widespread in smartphones.
+
+What quality of infrared scannings could a smartphone camera provide? Another next step is to find such examples and 'mask' the available infrared scannings we're working with to resemble that quality and spectral range.
 
 My hope is this project begins what could become a predictive model robust enough to inform cruder handheld infrared scannings. Such a model would consider global and local datasets, and determine weights based on that location. 
 
