@@ -134,4 +134,4 @@ My hope is this project begins what could become a predictive model robust enoug
 
 Such a device/application could democratize soil health and demystify the process of knowing your soil's nutrient profile.
 
-Another horizon of interest would be considering ways to easily assess soil microbiology.
+Another horizon of interest would be considering ways to easily assess soil microbiology; the living side of the soil health equation.
