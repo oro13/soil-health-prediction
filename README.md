@@ -23,9 +23,11 @@ Sponsored by:
 [Data Tutorial](https://github.com/qedsoftware/afsis-soil-chem-tutorial)
 
 
-## Infrared Spectroscopy: Overview
+## Infrared Spectroscopy: An Overview
 
-Infering nutrients through Infrared Spectroscopy. Thousands of soil samples have been both scanned with (dry testing) and tested in the lab (wet testing), for a more complete soil profile. The goal is to predict the more detailed nutrient profile by using the coarser, but more efficient and affordable, infrared methods.
+*Infering nutrients through Infrared Spectroscopy*
+
+Thousands of soil samples have been both scanned with (dry testing) and tested in the lab (wet testing), for a more complete soil profile. The goal is to predict the more detailed nutrient profile by using the coarser, but more efficient and affordable, infrared methods.
 
 
 ## How the Data Was Collected
@@ -53,9 +55,9 @@ The infrared scanner can be configured in a variety of ways, in order to target 
 
 The data includes scannings from a variety of infrared methods. Different tools are better at perceiving specific ranges in the infrared spectrum. Running a predictive model on the various tools helped decipher which particles it was better at perceiving.
 
-For soil nutrient molecules near the soil surface, all the infrared tools performed decently. For aspects of the soil harder to depict physically, such as soil eletrical capacitance due to insoluable salt buildup (CONFIRM), certain tools perform better than others.
+For soil nutrient molecules near the soil surface, all the infrared tools performed decently. For aspects of the soil harder to depict physically, such as soil eletrical capacitance due to insoluable salt buildup, certain tools perform better than others.
 
-A research paper considers this more closely:
+A [NIH research paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4834557/#bb0185) considers this more closely:
 
 <img alt='comparing the performance of different tools on different targets' src='img/compare spectra.png' width='50%' height='50%'>
 
