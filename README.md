@@ -1,4 +1,4 @@
-# Predicting Soil Nutrition with Infrared Spectroscopy
+# Soil Health Prediction
 
 <img alt='working with the soil' src='img/Micro_catchment.jpg' width='90%' height='900%'>
 
