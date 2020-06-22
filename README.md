@@ -12,7 +12,7 @@ Infrared spectroscopy has traditionally provided great scientific insight. Now i
 
 ## Data Source
 
-Data Collected between 2009 and 2013 by [African Soil Information Service (AFSIS)](https://registry.opendata.aws/afsis/) research centers.
+Data Collected between 2009 and 2013 by [African Soil Information Service (AFSIS)](https://registry.opendata.aws/afsis/) partnered research centers in Africa.
 
 Sponsored by:
 
