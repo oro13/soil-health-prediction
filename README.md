@@ -6,7 +6,7 @@
 
 ## Motivation:
 
-Soil health is our health. Here we hope to improve our tools of assessing soil health and making them more available.
+Soil health is our health. Here we hope to improve our tools of assessing soil health and make it widely available.
 
 Infrared spectroscopy has traditionally provided great scientific insight. Now it can improve the quality of life of farmers and their ecosystems.
 
