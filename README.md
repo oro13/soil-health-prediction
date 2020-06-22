@@ -75,6 +75,8 @@ The same data transformed by taking the derivative of the numbers (helps the sig
 
 ### Target Values
 
+These are the values that we're trying to predict. The available values vary from lab to lab. For this project, we focused on common necessary macronutrients in the soil.
+
 <img alt='target data' src='img/targets_before_log.png' width='90%' height='50%'>
 
 The same data transformed by taking the log (helps the computer keep track of tiny numbers)
